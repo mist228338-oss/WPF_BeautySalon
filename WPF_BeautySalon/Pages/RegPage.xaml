@@ -1,0 +1,54 @@
+﻿<Page x:Class="WPF_BeautySalon.Pages.RegPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Регистрация">
+
+    <Grid Background="#F3F3F3">
+        <Border Background="White" CornerRadius="10" Width="400" Padding="30" 
+                VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="15" Color="Gray" Opacity="0.3" ShadowDepth="0"/>
+            </Border.Effect>
+
+            <StackPanel>
+                <TextBlock Text="Регистрация" FontSize="24" FontWeight="Bold" 
+                           HorizontalAlignment="Center" Margin="0,0,0,20" Foreground="#233E76"/>
+
+                <!-- Логин -->
+                <Label Content="Введите логин" FontWeight="SemiBold"/>
+                <TextBox x:Name="txtbxLog" Height="30" VerticalContentAlignment="Center" 
+                         ToolTip="Придумайте уникальный логин на английском"/>
+
+                <!-- Пароль -->
+                <Label Content="Введите пароль" FontWeight="SemiBold" Margin="0,10,0,0"/>
+                <PasswordBox x:Name="passBxFrst" Height="30" VerticalContentAlignment="Center" 
+                             ToolTip="Минимум 6 символов, только английские буквы и хотя бы 1 цифра"/>
+
+                <!-- Подтверждение пароля -->
+                <Label Content="Подтвердите пароль" FontWeight="SemiBold" Margin="0,10,0,0"/>
+                <PasswordBox x:Name="passBxScnd" Height="30" VerticalContentAlignment="Center" 
+                             ToolTip="Повторите пароль"/>
+
+                <!-- Роль -->
+                <Label Content="Выберите роль" FontWeight="SemiBold" Margin="0,10,0,0"/>
+                <ComboBox x:Name="comboBox" Height="30" VerticalContentAlignment="Center" 
+                          ToolTip="Выберите роль в системе">
+                    <ComboBoxItem Content="User" IsSelected="True"/>
+                    <ComboBoxItem Content="Admin"/>
+                </ComboBox>
+
+                <!-- ФИО -->
+                <Label Content="Введите ФИО" FontWeight="SemiBold" Margin="0,10,0,0"/>
+                <TextBox x:Name="txtbxFIO" Height="30" VerticalContentAlignment="Center" 
+                         ToolTip="Введите ваши Фамилию, Имя и Отчество"/>
+
+                <!-- Кнопки -->
+                <Button x:Name="regButton" Content="Зарегистрироваться" Margin="0,25,0,10" 
+                        Click="regButton_Click" ToolTip="Создать нового пользователя"/>
+
+                <Button Content="Назад (Вход)" Background="#FF9918" Click="BtnBack_Click" 
+                        ToolTip="Вернуться на страницу авторизации"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

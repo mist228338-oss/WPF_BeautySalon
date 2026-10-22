@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_BeautySalon", "WPF_BeautySalon\WPF_BeautySalon.csproj", "{B5EEB10F-3ECC-4179-BE7B-C8F0555AAB36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5EEB10F-3ECC-4179-BE7B-C8F0555AAB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EEB10F-3ECC-4179-BE7B-C8F0555AAB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EEB10F-3ECC-4179-BE7B-C8F0555AAB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EEB10F-3ECC-4179-BE7B-C8F0555AAB36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B2D1CA4-2FC5-4C55-AAB9-5C60BC07F029}
+	EndGlobalSection
+EndGlobal

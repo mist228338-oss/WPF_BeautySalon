@@ -1,0 +1,15 @@
+﻿<Page x:Class="WPF_BeautySalon.Pages.AdminPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Панель администратора">
+    <Grid Background="#F3F3F3">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
+            <TextBlock Text="Панель управления" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20" Foreground="#233E76"/>
+
+            <Button Content="Таблица пользователей" Click="BtnUsers_Click" Margin="0,10"/>
+            <Button Content="Таблица категорий" Click="BtnCategories_Click" Margin="0,10"/>
+            <Button Content="Таблица платежей" Click="BtnPayments_Click" Margin="0,10"/>
+            <Button Content="Диаграммы" Click="BtnCharts_Click" Margin="0,10" Background="#FF9918"/>
+        </StackPanel>
+    </Grid>
+</Page>
