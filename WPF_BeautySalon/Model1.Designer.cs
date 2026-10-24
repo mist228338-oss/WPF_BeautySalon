@@ -1,4 +1,4 @@
-﻿// Создание кода T4 для модели "C:\Users\237121\source\repos\WPF_BeautySalon\WPF_BeautySalon\Model1.edmx" включено. 
+﻿// Создание кода T4 для модели "C:\Users\237121\source\repos\mist228338-oss\WPF_BeautySalon\WPF_BeautySalon\Model1.edmx" включено. 
 // Чтобы включить формирование кода прежних версий, измените значение свойства "Стратегия создания кода" конструктора
 // на "Legacy ObjectContext". Это свойство доступно в окне "Свойства", если модель
 // открыта в конструкторе.
