@@ -1,30 +1,26 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Цвета для светлой темы -->
+    <SolidColorBrush x:Key="BackgroundBrush" Color="#F3F3F3"/>
+    <SolidColorBrush x:Key="ForegroundBrush" Color="#233E76"/>
+    <SolidColorBrush x:Key="CardBgBrush" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="ButtonBgBrush" Color="#0198AF"/>
+
+    <!-- Стили (с привязкой к цветам) -->
     <Style TargetType="Button">
         <Setter Property="Height" Value="35"/>
         <Setter Property="Padding" Value="8"/>
         <Setter Property="Margin" Value="5"/>
         <Setter Property="FontFamily" Value="Open Sans"/>
         <Setter Property="FontSize" Value="13"/>
-        <Setter Property="Background" Value="#0198AF"/>
+        <Setter Property="Background" Value="{DynamicResource ButtonBgBrush}"/>
         <Setter Property="Foreground" Value="White"/>
         <Setter Property="BorderThickness" Value="0"/>
-    </Style>
-    <Style TargetType="TextBox">
-        <Setter Property="Height" Value="30"/>
-        <Setter Property="FontFamily" Value="Open Sans"/>
-        <Setter Property="Margin" Value="5"/>
-        <Setter Property="VerticalContentAlignment" Value="Center"/>
-    </Style>
-    <Style TargetType="PasswordBox">
-        <Setter Property="Height" Value="30"/>
-        <Setter Property="FontFamily" Value="Open Sans"/>
-        <Setter Property="Margin" Value="5"/>
-        <Setter Property="VerticalContentAlignment" Value="Center"/>
     </Style>
     <Style TargetType="Label">
         <Setter Property="FontFamily" Value="Open Sans"/>
         <Setter Property="FontSize" Value="14"/>
-        <Setter Property="Foreground" Value="#233E76"/>
+        <Setter Property="Foreground" Value="{DynamicResource ForegroundBrush}"/>
     </Style>
 </ResourceDictionary>
